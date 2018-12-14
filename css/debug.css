@@ -1,0 +1,55 @@
+/**************************************/
+/********** DEBUGGING STYLES **********/
+/**************************************/
+
+
+.debug,.debugCleanString,.debugCheckInputString,.debugCheckEmail,.debugImageUpload,.debugDb,.debugClass  {
+	background-color: dodgerblue;
+	padding: 2px 5px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	font-family: arial;
+	font-size: 0.8em;
+	color: white;
+	margin-left: 10px;
+}
+.debugCleanString {
+	background-color: palegreen;
+	color: black;
+}
+.debugCheckInputString {
+	background-color: springgreen;
+	color: black;
+}
+.debugCheckEmail {
+	background-color: chartreuse;
+	color: black;
+}
+.debugImageUpload {
+	background-color: darkcyan;
+}
+.debugDb {
+	background-color: darkorange;
+}
+.debugClass {
+	background-color: lightblue;
+	font-family: courier new;
+	font-size: 0.9em;
+	color: #333;
+}
+.err {
+	border-left: 10px solid red;
+	border-radius: 0.7em 0 0 0.7em;
+	margin-left: 0px;
+}
+.ok {
+	border-left: 10px solid lime;
+	border-radius: 0.7em 0 0 0.7em;
+	margin-left: 0px;
+}
+.hint {
+	border-left: 10px solid darkorange;
+	border-radius: 0.7em 0 0 0.7em;
+	margin-left: 0px;
+
+}
